@@ -1,6 +1,6 @@
 windows priv
 
-
+https://swisskyrepo.github.io/InternalAllTheThings/redteam/escalation/windows-privilege-escalation/
 <<<System enumration>>>
 systeminfo
 hostname
