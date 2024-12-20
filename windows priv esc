@@ -1,0 +1,34 @@
+windows priv
+
+
+<<<System enumration>>>
+systeminfo
+hostname
+wmic qfe
+wmic logicaldisc 
+wmic logicaldisk get caption,description,providername
+
+
+<<<user enumration>>>
+whoami
+whoami /priv
+whoami /all
+whoami /groups
+net user
+net user username
+net localgroup administrators
+
+
+<<<network enumration>>>
+ipconfig
+ipconfig /all
+arp -a
+route print
+netstat -ano
+
+
+<<<password enumration>>>
+findstr /si password *.txt *.ini *.config
+
+
+
