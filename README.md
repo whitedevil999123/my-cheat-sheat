@@ -127,7 +127,7 @@ Add-DomainGroupMember -Identity 'Domain Admins' -Members 'anuradha' -Credential 
 
 
 Active Directory
-
+https://swisskyrepo.github.io/InternalAllTheThings/active-directory/ad-adds-enumerate/
 TOOLS:
 
 adPEAS-Light.ps1 >>      https://github.com/61106960/adPEAS/blob/main/adPEAS-Light.ps1
