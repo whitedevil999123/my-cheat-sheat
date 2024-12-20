@@ -1,4 +1,13 @@
 cheat sheet oscp
+Bloodhound
+bloodhound-python -d domain.local -u username -p password -v --zip -c All -dc domain.local -ns 192.168.1.1
+sharphound
+
+Check group members
+net rpc group members "groupname" -U "domain.local/pooja.ritu%qazwsx" -S 192.168.1.1
+
+
+
 commands
 ----
 Host IP: 192.168.xx.xx
